@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>MDL</title>
+
+	<script>
+ document.addEventListener("deviceready", onDeviceReady, false);
+
+    // Global InAppBrowser reference
+    var iabRef = null;
+
+    function iabLoadStart(event) {
+        alert(event.type + ' - ' + event.url);
+    }
+
+    function iabLoadStop(event) {
+        alert(event.type + ' - ' + event.url);
+    }
+
+    function iabClose(event) {
+         alert(event.type);
+         iabRef.removeEventListener('loadstart', iabLoadStart);
+         iabRef.removeEventListener('loadstop', iabLoadStop);
+         iabRef.removeEventListener('exit', iabClose);
+    }
+
+    // Cordova is ready
+    //
+</script>
+	<script type="text/javascript" src="config.xml"></script>
+	<script type="text/javascript" src="../../src/iscroll.js"></script>
+	<script type="text/javascript" src="dg-filter.js"></script> 
+	<script src="inappbrowser.js"></script>
+	
+	<title>MDL</title>
+	<link rel="stylesheet" type="text/css" href="mystyle3.css"> 
+	<script>
+ //document.addEventListener("menubutton", function () { 
+      // alert('Menu button');
+  //  }, false);  
+
+    //document.addEventListener("searchbutton", function () { 
+      //  alert('Search button');
+   // }, false);                      
+
+    document.addEventListener("backbutton", function () { 
+         history.go(-1);
+    }, false);
+</script>
+	
+</head>
+<body>
+	
+	
+
+	 <div class="panel-heading   col-md-12 col-xs-12 col-sm-12 col-lg-12"style="background-color:#CCCCCC;color:#3366cc; "><img src="MDL Logo 2022 smaller.png" align="right"></a><strong><h3>Pharmacogenomics</h3></strong>
+	
+	</div>
+		<div id="wrapper" align="center">
+			
+			
+			<div id="scroller">
+					
+			<script type="text/javascript">
+			var myScroll;
+			function loaded() {
+			var myScroll = new iScroll('wrapper');
+		}
+		</script>
+	
+<meta name="viewport" content="width=320; initial-scale=1.0; user-scalable=yes"/> 
+<b><h5>Medical Diagnostic Laboratories, L.L.C. (MDL), founded in 1997, serves primarily as a reference laboratory for Polymerase Chain Reaction (PCR) based testing to physicians, laboratories and hospitals worldwide. MDL is a CLIA certified infectious disease laboratory with multiple state licenses specializing in PCR technology. Molecular diagnostic techniques, such as the PCR method, are considered to be the most sensitive and specific for the laboratory diagnosis of infectious diseases. MDL offers unique, non-invasive, highly stable specimen collection and transport platforms, such as the<i><FONT COLOR="blue"> One</font>Swab<sup><font-size=“1”>®</font></sup>, <FONT COLOR="yellow">Uro</font>Swab<sup><font-size=“1”>® </font></sup>and <FONT COLOR="green">Naso</font>Swab<sup><font-size=“1”>®</font></sup>.</i> These platforms enable MDL to offer a variety of PCR based tests from a single swab with high sensitivity and specificity.</h5></b>
+
+<br>
+<center><a href="#"    onclick="window.open('http://www.mdlab.com', '_system');"><img src="MDL Logo 2022 small.png" border="0" style="position:relative;top:25px;"></a></center>
+ 
+	<br>
+	</div>
+		</div>
+		</div>
+		</div>
+		
+		<div id="footer"><center><input type="button"  class="groovybutton2" name="back1" id="back1" value="Back"   onclick="location.href='menu.html'"</a></center></div>	
+	</body>
+​</html>

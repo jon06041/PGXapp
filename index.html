@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <title>Pharmacogenomics</title>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $(".nav a").on("click", function() {
+                $(".nav").find(".active").removeClass("active");
+                $(this).parent().addClass("active");
+            });
+
+            $drugs = $.ajax({
+                dataType: "json",
+                url: "drugs.json",
+                success: function(data) {
+                    var first = '';
+                    var count = 0;
+                    var x = 0;
+                    $.each(data, function(index, value) {
+                        var htmlText = '';
+                        if (first !== value.category) {
+                            htmlText += '    <div class="panel panel-info" data-type="category"  data-category="' + value.category.trim().toLowerCase() + '">';
+							
+                            htmlText += '        <div class="panel-heading">';
+                            htmlText += '            <h4 class="panel-title panel-bold">';
+                            htmlText += '               ' + value.category;
+                            htmlText += '            </h4>';
+                            htmlText += '        </div>';
+                            htmlText += '    </div>';
+
+                            first = value.category;
+                        }
+
+                        htmlText += '    <div class="panel panel-x" data-type="drug" data-drug="' + value.Drug.trim().toLowerCase() + '" data-category="' + value.category.trim().toLowerCase() + '">';
+                        htmlText += '        <div class="panel-heading"style="margin-top:.2%; background-color:#E6E6E6;">';
+                        htmlText += '            <h4 class="panel-title">';
+                        htmlText += '               <a data-toggle="collapse" href="#collapse' + value.ID + '">' + value.Testcode + " " + value.Drug + '</a>';
+                        htmlText += '            </h4>';
+                        htmlText += '        </div>';
+                        htmlText += '    </div>';
+                        htmlText += '    <div id="collapse' + value.ID + '" class="panel-collapse collapse">';
+                        htmlText += '        <div class="panel-body panel-gene">' + value.Gene.trim() + '</div>'
+                        htmlText += '    </div>';
+
+                        $("#grid").append(htmlText);
+                    });
+                }
+            });
+
+
+            $('#drugFilter').on('keyup', function() {
+                $("[data-type=category]").show();
+                var drugs = $("[data-drug]");
+                var searchDrug = this.value.toLowerCase();
+
+                drugs.show().filter(function() {
+                    var d = $(this).data('drug');
+                    return d.indexOf(searchDrug) < 0;
+                }).hide();
+
+                var categories = $("[data-type=category]");
+                $.each(categories, function() {
+                    var drug = $('[data-type=drug][data-category="' + $(this).data('category') + '"]:visible');
+                    if (drug.length === 0) {
+                        $(this).hide();
+                    }
+                });
+            });
+
+            $('#geneFilter').on('keyup', function() {
+                $("[data-type=category]").show();
+                var $panels = $('.panel-x');
+                var val = this.value.toLowerCase();
+
+                $panels.show().filter(function() {
+                    var panelTitleText = $(this).next('.panel-collapse').find('.panel-body').text().toLowerCase();
+                    return panelTitleText.indexOf(val) < 0;
+                }).hide();
+
+                var categories = $("[data-type=category]");
+                $.each(categories, function() {
+                    var drug = $('[data-type=drug][data-category="' + $(this).data('category') + '"]:visible');
+                    if (drug.length === 0) {
+                        $(this).hide();
+                    }
+                });
+            });
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".nav a").on("click", function() {
+                $(".nav").find(".active").removeClass("active");
+                $(this).parent().addClass("active");
+            });
+
+            $paneldrugs = $.ajax({
+                dataType: "json",
+                url: "paneldrugs.json",
+                success: function(data) {
+
+
+
+
+                    var first = '';
+                    $.each(data, function(index, value) {
+                        var htmlText = '';
+                        if (value.Category === 'x') {
+
+                        }
+                        if (first !== value.Category) {
+                            htmlText += '    <div class="panel panel-info"style="margin-top:.2%; border-bottom-width: 3px;border-bottom-color:black;">';
+                            htmlText += '        <div class="panel-heading">';
+                            htmlText += '            <h4 class="panel-title"style="margin-left:15px;">';
+                            htmlText += '               <a>' + value.Category + '</a>';
+                            htmlText += '            </h4>';
+
+                            htmlText += '        </div>';
+                            htmlText += '    </div>';
+
+                            // $("#grid2").append(htmlText);
+                            first = value.Category;
+                        }
+
+                        //htmlText += '<div class="panel-group">';
+                        htmlText += '    <div class="panel panel-t "style="margin-top:.2%; background-color:#E6E6E6;">';
+                        htmlText += '        <div class="panel-heading">';
+
+                        htmlText += '            <h4 class="panel-title" style="margin-left:15px;">';
+                        htmlText += '               <a data-toggle="collapse" href="#collapse' + value.ID + '">' + value.panelno + '</a>';
+                        htmlText += '            </h4>';
+                        htmlText += '        </div>';
+                        htmlText += '    </div>';
+
+                        htmlText += '    <div id="collapse' + value.ID + '" class="panel-collapse collapse">';
+                        htmlText += '        <div class="panel-body">' + value.panelname + " " + value.testsinpanel + '</div>'
+                        htmlText += '    </div>';
+                        // htmlText += '</div>';
+
+                        $("#grid2").append(htmlText);
+                    });
+
+                }
+            });
+
+
+            $('#paneldrugFilter').on('keyup', function() {
+                var $panels = $('.panel-t');
+
+                var val = this.value.toLowerCase();
+
+                $panels.show().filter(function() {
+                    var panelTitleText = $(this).find('.panel-title').text().toLowerCase();
+
+                    return panelTitleText.indexOf(val) < 0;
+                }).hide();
+
+
+            });
+            /*$('#drugFilter').on('keyup', function() {
+                var $panels = $('.panel-info');
+				
+                var val = this.value.toLowerCase();
+
+                $panels.show().filter(function() {
+                    var panelTitleText = $(this).find('.a'&& '.panel-title').text().toLowerCase();
+					
+                    return panelTitleText.indexOf(val) < 0;
+                }).hide();
+					
+            });*/
+
+
+
+
+            $('#panelgeneFilter').on('keyup', function() {
+                var $panels = $('.panel-t');
+                var val = this.value.toLowerCase();
+
+                $panels.show().filter(function() {
+                    var panelTitleText = $(this).next('.panel-collapse').find('.panel-body').text().toLowerCase();
+                    return panelTitleText.indexOf(val) < 0;
+                }).hide();
+            });
+
+        });
+    </script>
+
+    <style>
+        body {
+            padding-top: 166px;
+        }
+        
+        .panel-group .panel {
+            border-radius: 0;
+        }
+        
+        .panel-bold {
+            font-weight: bolder;
+            text-transform: capitalize;
+        }
+        
+        .panel-gene {
+            padding-left: 30px;
+            background: #f7f7f7;
+        }
+    </style>
+</head>
+
+<header>
+    <!-- HEADER -->
+    <div id="about" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#CCCCCC;color:#3366cc; ">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">About</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Pharmacogenomics version 1.0.2 </p>
+                    <p> App created by Jon Sniffen, Medical Diagnostic Laboratories </p>
+                    <p class="text-warning"><small>This app is intended to serve as a reference tool for those in the medical community. </small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="testpanels" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#CCCCCC;color:#3366cc; ">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Test Panels</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <div class="input-group" style="margin-left:15px;margin-right:15px;">
+                            <input type="text" class="form-control" placeholder="Search By Drug class..." name="paneldrugFilter" id="paneldrugFilter">
+                            <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
+                        </div>
+                        <!--inputpanels1-->
+                        <div class="input-group" style="margin-left:15px;margin-right:15px;">
+                            <input type="text" class="form-control" placeholder="Search By Drug or Gene..." name="panelgeneFilter" id="panelgeneFilter">
+                            <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
+                        </div>
+                        <!--inputpanels2-->
+                        <h6 style="margin-left:15px;">Click on the panel # to show the tests offered in each panel</h6>
+                        <div class="container-fluid">
+                            <div class="row">
+
+                                <div id="grid2" class="panel-group">
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </p>
+                    <p class="text-warning"><small> </small></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- add MDL page here in Modal   -->
+    <div id="Termsofuse" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#CCCCCC;color:#3366cc; ">
+
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Terms of Use</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>Acceptance of Terms and Conditions of Use</h4>
+
+                        <p>By downloading this mobile application ("App") from Genesis Biotechnology Group, LLC ("GBG"), you affirm that you are legally competent to accept and agree to the Terms and Conditions ("Terms"). If you do not agree to any of the
+                            terms, then do not download this App.</p>
+                        <p>The Terms constitute an agreement between GBG and its affiliates (collectively, "GBG" or "we" or "us") and you. We recommend that you print out a copy of the Terms for your records.</p>
+
+
+                        <p>The information provided by this App, including the text, images, and graphics (collectively, "Information") is intended to serve as a reference for physicians and healthcare professionals. The Information provided in this App
+                            is not meant to serve as a substitute for your own clinical judgment as a physician or healthcare professional. You should continue to evaluate and independently verify the Information provided herein. Nothing contained in
+                            this App is intended to be used as a substitute for your ultimate medical diagnosis or treatment. The Information is designed to support, and not replace, the relationship that exists between physicians or healthcare professionals
+                            and their patients and is not intended, nor recommended as a substitute for professional medical advice.</p>
+
+
+                        <p>If you are a patient you should always consult your physician or healthcare professional if you have questions about your symptoms, diagnosis or treatment.</p>
+                        <h4>Use of Information and User Restrictions</h4>
+                        <p>GBG grants you the non-exclusive, non-transferrable, limited right and permission to use this App solely for your personal, non-commercial use in the United States and to download and install this App on a single mobile device
+                            owned or otherwise controlled by you. </p>
+                        <p>The Information is protected by copyright under both United States and foreign laws. Any use of the Information not expressly permitted by the Terms is a breach of the Terms and may violate copyright, trademark, and other laws.
+                            All rights not expressly granted herein are reserved to GBG. If you violate any of the Terms, your permission to use the App automatically terminates.</p>
+                        <p>You acknowledge, consent and agree that we may investigate your use of the App in order to determine whether a violation of the Terms has occurred or to comply with any applicable laws, regulations, governmental requests or legal
+                            processes.
+                        </p>
+                        <h4>Changes to Terms</h4>
+                        <p>GBG reserves the right to update or modify the Terms at any time without prior notice to you. Your use of the App after the Terms have been updated shall be deemed to constitute acceptance by you of any modifications, additions
+                            or deletions to the updated Terms.</p>
+                        <h4>Privacy</h4>
+                        <p>GBG does not collect any information from you when downloading or using our App. You are responsible for assessing your privacy and security needs and determining whether your use of our App is appropriate to comply with your obligations.
+                        </p>
+                        <h4>Jurisdiction</h4>
+                        <p>GBG controls the components of the App made available to you from within the State of New Jersey. By downloading the App, you agree that the statutes and laws of the State of New Jersey, without regard to choice of laws principles,
+                            will apply to all matters relating to your use of the App. No waiver of any of the Terms shall be deemed a further or continuing waiver of the Terms. We make no representation that materials made available through the App are
+                            appropriate or available for use in other locations, and accessing them from territories where their contents are illegal is prohibited. If you access the App from outside the United States, you are responsible for compliance
+                            with the laws of that foreign jurisdiction.</p>
+                        <h4>Termination and Modification</h4>
+                        <p>You agree that, under certain circumstances and without prior notice to you, GBG may either temporarily or permanently discontinue the App. Cause for termination shall include, but is not limited to: (a) breaches or violations
+                            of the Terms; (b) requests by law enforcement or other government agencies; (c) discontinuance or material modification to the mobile application; or (d) unexpected technical or security issues or problems. You agree that all
+                            terminations for cause shall be made at our sole discretion, and we shall not be liable to you for termination of access to the App.</p>
+                        <p>The provisions of Disclaimer, Use of Information and User Restrictions, Jurisdiction, Disclaimer of Liability and Indemnity shall survive the expiration or termination of the Terms.</p>
+                        <h4>Disclaimer of Liability</h4>
+                        <p>The App and Information included therein are provided on an "as is" basis.<br /> WE DISCLAIM ALL WARRANTIES, EITHER EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY,
+                            ACCURACY, NON-INFRINGEMENT OF THIRD PARTIES' RIGHTS, FITNESS FOR PARTICULAR PURPOSE AND THAT THE SERVICES WILL MEET YOUR REQUIREMENTS AS AN END USER OF THE SERVICES.</p>
+                        <p>When using the App, information will be transmitted over a medium that may be beyond GBG's control. Accordingly, GBG does not assume liability for or relating to the delay, failure, interruption or corruption of Information transmitted
+                            in connection with your use of the App. You are responsible for obtaining and maintaining all connectivity, software, hardware and other equipment needed to access the App and all charges related to the same.</p>
+                        <p>You agree that you must evaluate, and bear all risks associated with, the use of the Information contained in the App, including any reliance on the accuracy, completeness, or usefulness of such Information.</p>
+                        <p>Without limiting the foregoing, GBG makes no representations or warranties to: (1) the accuracy, reliability, completeness, currentness, or timeliness of the Information, software, text, graphics, links, or communications provided
+                            on or through the use of the App; and (2) the satisfaction of any government regulations requiring disclosure of information on prescription drug products.</p>
+                        <p>In no event will we be liable for any damages (including, without limitation, incidental, consequential and special damages, personal injury/wrongful death, lost profits for sequence, accuracy or completeness of Information included
+                            in the App, or damages resulting from lost data or business interruption) arising out of or in connection with the use of, misuse of, inability to use or interpretation of the Information contained in the App, whether based
+                            on warranty, contract, tort, or any other legal theory, and whether or not we are advised of the possibility of such damages.</p>
+                        <h4>Indemnity</h4>
+                        <p>You agree to defend, indemnify, and hold GBG and our officers, directors, employees, agents, licensors, and suppliers, harmless from and against any claims, actions or demands, liabilities and settlements including without limitation,
+                            reasonable legal and accounting fees, resulting from your use of or access to the App, or alleged to result from your violation of the Terms.</p>
+                        <h4>Take Down Notice and Procedures</h4>
+                        <p>Pursuant to the Digital Millennium Copyright Act of 1998 ("DMCA") 17 U.S.C. § 512(c)(1)(A), if you believe any materials accessible on or from the App infringe your copyright, you may request removal of those materials (or access
+                            thereto) from the App by providing the following information:</p>
+                        <p>1. Identification of the copyrighted work that you believe to be infringed. Please describe the work, and where possible include a copy or the location of an authorized version of the work.</p>
+                        <p>2. Identification of the material that you believe to be infringing and its location. Please describe the material and any other pertinent information that will allow us to locate the material.</p>
+                        <p>3. Your name, address, telephone number and e-mail address.</p>
+                        <p>4. A statement that you have a good faith belief that the complained of use of the material is not authorized by the copyright owner, its agent, or the law.</p>
+                        <p>5. A statement that the information that you have supplied is accurate, and indicating that "under penalty of perjury," you are the copyright owner or are authorized to act on the copyright owner's behalf.</p>
+                        <p>6. A signature or the electronic equivalent from the copyright holder or authorized representative.</p>
+                        <p>Significant failure to follow these guidelines may result in inadequate notice of the copyright infringement alleged under 17 U.S.C. § 512(c)(3)(B).</p>
+                        <p>Deliver this Notice, with all items completed to GBG's Designated Copyright Agent:</p>
+                        <p>Genesis Biotechnology Group, LLC
+                            <br>Legal Department
+                            <br>2439 Kuser Road
+                            <br>Hamilton, NJ 08690
+                            <br>Email: agent@genesisbiotechgroup.com
+                        </p>
+                        <p class="text-warning"><small>Complete Agreement</small>
+                        </p>
+                        <p>The Terms constitute the entire agreement between you and GBG with respect to your use of the App.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- add disclaimer page here in Modal -->
+    <!-- add MDL page here in Modal   -->
+    <div id="MDL" class=" modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color:#CCCCCC;color:#3366cc; ">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">MDL</h4>
+                </div>
+                <div class="modal-body">
+                    <b><h5>Medical Diagnostic Laboratories, L.L.C. (MDL), founded in 1997, serves primarily as a reference laboratory for Polymerase Chain Reaction (PCR) based testing to physicians, laboratories and hospitals worldwide. MDL is a CLIA certified infectious disease laboratory with multiple state licenses specializing in PCR technology. Molecular diagnostic techniques, such as the PCR method, are considered to be the most sensitive and specific for the laboratory diagnosis of infectious diseases. MDL offers unique, non-invasive, highly stable specimen collection and transport platforms, such as the<i><FONT COLOR="blue"> One</font>Swab<sup><font-size="1">®</font></sup>, <FONT COLOR="yellow">Uro</font>Swab<sup><font-size="1">® </font></sup>and <FONT COLOR="green">Naso</font>Swab<sup><font-size="1">®</font></sup>.</i> These platforms enable MDL to offer a variety of PCR based tests from a single swab with high sensitivity and specificity.</h5></b>
+                    <center>
+                        <a href="#" onclick="window.open('http://www.mdlab.com', '_system');"><img src="MDL Logo 2022 small.png" border="0" style="position:relative;top:25px;"></a>
+                    </center>
+                    <br />
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- add disclaimer page here in Modal    -->
+    <div id="navbar">
+        <!--<nav class="navbar-collapse collapse" id="bs-navbar" aria-expanded="false" style="height: 1px;"> -->
+
+        <div class="navbar navbar-default navbar-fixed-top" style="padding-top: 15px;">
+            <img src="MDL Logo 2022 smaller.png" class="img-responsive pull-left" style="margin-left:15px;padding-top: 10px;" />
+            <div class="navbar-header"><a class="navbar-brand" style="color:#3366cc;font-size:25px;" href="#">Pharmacogenomics</a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav ">
+                    <li class="active">
+                        <a href="#" data-toggle="modal" data-target="#about">
+							About
+						</a>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#Termsofuse">
+							Terms of use
+						</a>
+                    </li>
+                    <li><a href="#" data-toggle="modal" data-target="#MDL">
+							MDL   
+						</a>
+                    </li>
+
+                    <li><a href="#" data-toggle="modal" data-target="#testpanels">
+							Test Panels
+						</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="input-group" style="margin-left:15px;margin-right:15px;">
+                <input type="text" class="form-control" placeholder="Search By Drug Name..." name="drugFilter" id="drugFilter" />
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                </span>
+            </div>
+            <!--inputpaels1-->
+            <div class="input-group" style="margin-left:15px;margin-right:15px;">
+                <input type="text" class="form-control" placeholder="Search By Gene..." name="geneFilter" id="geneFilter">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </span>
+            </div>
+            <!--inputpaels2-->
+            <h6 style="margin-left:15px;">Click on each drug to see the genes associated with them</h6>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="grid" class="panel-group">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

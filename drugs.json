@@ -1,0 +1,1318 @@
+[
+ {
+   "ID": 1,
+   "category": "Cardiology",
+   "Testcode": 3801,
+   "Drug": "Acenocoumarol",
+   "Gene": "CYP2C9 VKORC1      "
+ },
+ {
+   "ID": 6,
+   "category": "Cardiology",
+   "Testcode": 3806,
+   "Drug": "Amlodipine",
+   "Gene": "CYP3A4 CYP3A5      "
+ },
+ {
+   "ID": 11,
+   "category": "Cardiology",
+   "Testcode": 3811,
+   "Drug": "Aspirin",
+   "Gene": "CYP2C19 CYP2D6 ITGB3     "
+ },
+ {
+   "ID": 14,
+   "category": "Cardiology",
+   "Testcode": 3814,
+   "Drug": "Atorvastatin",
+   "Gene": "ABCB1 ABCG2 APOE CYP3A4 CYP3A5 KIF6 SLCO1B1 "
+ },
+ {
+   "ID": 15,
+   "category": "Cardiology",
+   "Testcode": 3815,
+   "Drug": "Benazepril",
+   "Gene": "MTHFR       "
+ },
+ {
+   "ID": 16,
+   "category": "Cardiology",
+   "Testcode": 3816,
+   "Drug": "Bufuralol",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 23,
+   "category": "Cardiology",
+   "Testcode": 3823,
+   "Drug": "Carvedilol",
+   "Gene": "CYP2D6 UGT1A1      "
+ },
+ {
+   "ID": 25,
+   "category": "Cardiology",
+   "Testcode": 3825,
+   "Drug": "Cerivastatin",
+   "Gene": "SLCO1B1       "
+ },
+ {
+   "ID": 27,
+   "category": "Cardiology",
+   "Testcode": 3827,
+   "Drug": "Cilostazol",
+   "Gene": "CYP3A5       "
+ },
+ {
+   "ID": 32,
+   "category": "Cardiology",
+   "Testcode": 3832,
+   "Drug": "Clopidogrel",
+   "Gene": "ABCB1 CYP1A2 CYP2B6 CYP2C19 CYP2C9 CYP3A4 ITGB3 "
+ },
+ {
+   "ID": 35,
+   "category": "Cardiology",
+   "Testcode": 3835,
+   "Drug": "Coumarol",
+   "Gene": "CYP2D6 VKORC1      "
+ },
+ {
+   "ID": 41,
+   "category": "Cardiology",
+   "Testcode": 3841,
+   "Drug": "Debrisoquine",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 50,
+   "category": "Cardiology",
+   "Testcode": 3850,
+   "Drug": "Digoxin",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 58,
+   "category": "Cardiology",
+   "Testcode": 3858,
+   "Drug": "Enalapril",
+   "Gene": "SLCO1B1       "
+ },
+ {
+   "ID": 69,
+   "category": "Cardiology",
+   "Testcode": 3869,
+   "Drug": "Flecainide",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 71,
+   "category": "Cardiology",
+   "Testcode": 3871,
+   "Drug": "Fluindione",
+   "Gene": "VKORC1       "
+ },
+ {
+   "ID": 76,
+   "category": "Cardiology",
+   "Testcode": 3876,
+   "Drug": "Fluvastatin",
+   "Gene": "ABCG2 CYP2C9 CYP3A4     "
+ },
+ {
+   "ID": 91,
+   "category": "Cardiology",
+   "Testcode": 3891,
+   "Drug": "Irbesartan",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 104,
+   "category": "Cardiology",
+   "Testcode": 3904,
+   "Drug": "Losartan",
+   "Gene": "ABCB1 CYP2C9      "
+ },
+ {
+   "ID": 105,
+   "category": "Cardiology",
+   "Testcode": 3905,
+   "Drug": "Lovastatin",
+   "Gene": "CYP2D6 CYP3A5      "
+ },
+ {
+   "ID": 113,
+   "category": "Cardiology",
+   "Testcode": 3913,
+   "Drug": "Metoprolol",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 127,
+   "category": "Cardiology",
+   "Testcode": 3927,
+   "Drug": "Nifedipine",
+   "Gene": "CYP3A5       "
+ },
+ {
+   "ID": 131,
+   "category": "Cardiology",
+   "Testcode": 3931,
+   "Drug": "Olmesartan",
+   "Gene": "SLOC1B1       "
+ },
+ {
+   "ID": 146,
+   "category": "Cardiology",
+   "Testcode": 3946,
+   "Drug": "Pitavastatin",
+   "Gene": "SLCO1B1       "
+ },
+ {
+   "ID": 148,
+   "category": "Cardiology",
+   "Testcode": 3948,
+   "Drug": "Prasugrel",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 149,
+   "category": "Cardiology",
+   "Testcode": 3949,
+   "Drug": "Pravastatin",
+   "Gene": "KIF6 MTHFR      "
+ },
+ {
+   "ID": 151,
+   "category": "Cardiology",
+   "Testcode": 3951,
+   "Drug": "Propafenone",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 152,
+   "category": "Cardiology",
+   "Testcode": 3952,
+   "Drug": "Propranalol",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 162,
+   "category": "Cardiology",
+   "Testcode": 3962,
+   "Drug": "Rosuvastatin",
+   "Gene": "CYP3A5 SLCO1B1      "
+ },
+ {
+   "ID": 165,
+   "category": "Cardiology",
+   "Testcode": 3965,
+   "Drug": "Simvastatin",
+   "Gene": "ABCB1 ABCG2 CYP2C9 CYP3A4 CYP3A5 SLCO1B1  "
+ },
+ {
+   "ID": 175,
+   "category": "Cardiology",
+   "Testcode": 3975,
+   "Drug": "Talinolol",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 180,
+   "category": "Cardiology",
+   "Testcode": 3980,
+   "Drug": "Ticagrelor",
+   "Gene": "CYP3A4 SLCO1B1      "
+ },
+ {
+   "ID": 181,
+   "category": "Cardiology",
+   "Testcode": 3981,
+   "Drug": "Timolol",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 4,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3804,
+   "Drug": "Allopurinol",
+   "Gene": "ABCG2       "
+ },
+ {
+   "ID": 18,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3818,
+   "Drug": "Busulfan",
+   "Gene": "CYP2C19 CYP2C9      "
+ },
+ {
+   "ID": 24,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3824,
+   "Drug": "Celecoxib",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 37,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3837,
+   "Drug": "Cyclosporine",
+   "Gene": "ABCB1 CYP3A4 CYP3A5     "
+ },
+ {
+   "ID": 44,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3844,
+   "Drug": "Dexamethasone",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 48,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3848,
+   "Drug": "Diclofenac",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 63,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3863,
+   "Drug": "Esomeprazole",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 66,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3866,
+   "Drug": "Everolimus",
+   "Gene": "CYP3A5       "
+ },
+ {
+   "ID": 68,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3868,
+   "Drug": "Fexofenadine",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 75,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3875,
+   "Drug": "Flurbiprofen",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 96,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3896,
+   "Drug": "Lansoprazole",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 97,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3897,
+   "Drug": "Leflunomide",
+   "Gene": "CYP1A2       "
+ },
+ {
+   "ID": 103,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3903,
+   "Drug": "Lornoxicam",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 112,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3912,
+   "Drug": "Methylprednisone",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 132,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3932,
+   "Drug": "Omeprazole",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 141,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3941,
+   "Drug": "Pantoprazole",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 150,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3950,
+   "Drug": "Prednisone/ Prednisolone",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 155,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3955,
+   "Drug": "Rabeprazole",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 156,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3956,
+   "Drug": "Repaglinide",
+   "Gene": "CYP2C8 SLCO1B1      "
+ },
+ {
+   "ID": 161,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3961,
+   "Drug": "Rosiglitazone",
+   "Gene": "CYP2C8 SLCO1B1      "
+ },
+ {
+   "ID": 166,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3966,
+   "Drug": "Sirolimus",
+   "Gene": "ABCB1 CYP3A4 CYP3A5     "
+ },
+ {
+   "ID": 169,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3969,
+   "Drug": "Sulfasalazine",
+   "Gene": "ABCG2       "
+ },
+ {
+   "ID": 171,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3971,
+   "Drug": "Sulfoureas (gen)",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 174,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3974,
+   "Drug": "Tacrolimus",
+   "Gene": "ABCB1 CYP2C19 CYP3A4 CYP3A5    "
+ },
+ {
+   "ID": 187,
+   "category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "Testcode": 3987,
+   "Drug": "Urea Derivatives (gen)",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 12,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3812,
+   "Drug": "Atazanavir",
+   "Gene": "ABCB1 CYP3A5      "
+ },
+ {
+   "ID": 40,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3840,
+   "Drug": "Daptomycin",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 49,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3849,
+   "Drug": "Dicloxacillin",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 57,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3857,
+   "Drug": "Efavirenz",
+   "Gene": "ABCB1 CYP2B6 CYP3A4 CYP3A5    "
+ },
+ {
+   "ID": 61,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3861,
+   "Drug": "Erythromycin",
+   "Gene": "CYP3A4       "
+ },
+ {
+   "ID": 65,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3865,
+   "Drug": "Etravirine",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 90,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3890,
+   "Drug": "Indinavir",
+   "Gene": "CYP3A4 UGT1A1      "
+ },
+ {
+   "ID": 94,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3894,
+   "Drug": "Lamivudine",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 101,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3901,
+   "Drug": "Lopinavir",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 123,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3923,
+   "Drug": "Nelfinavir",
+   "Gene": "ABCB1 CYP2C19      "
+ },
+ {
+   "ID": 125,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3925,
+   "Drug": "Nevirapine",
+   "Gene": "ABCB1 CYP2B6 CYP2C19 CYP2D6 CYP3A5   "
+ },
+ {
+   "ID": 157,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3957,
+   "Drug": "Rifampicin",
+   "Gene": "SLCO1B1       "
+ },
+ {
+   "ID": 159,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3959,
+   "Drug": "Ritonavir",
+   "Gene": "ABCB1 APOE CYP3A5     "
+ },
+ {
+   "ID": 170,
+   "category": "INFECTIOUS DISEASE",
+   "Testcode": 3970,
+   "Drug": "Sulfonamides (gen)",
+   "Gene": "CYP2C9       "
+ },
+ {
+   "ID": 7,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3807,
+   "Drug": "Anthracyclines (gen)",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 19,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3819,
+   "Drug": "Capecitabine",
+   "Gene": "ABCB1 ABCG2 DPYD MTHFR    "
+ },
+ {
+   "ID": 21,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3821,
+   "Drug": "Carboplatin",
+   "Gene": "CYP3A5 MTHFR TPMT     "
+ },
+ {
+   "ID": 28,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3828,
+   "Drug": "Cisplatin",
+   "Gene": "ABCB1 CYP2C19 MTHFR TPMT    "
+ },
+ {
+   "ID": 36,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3836,
+   "Drug": "Cyclophosphamide",
+   "Gene": "CYP2B6 CYP2C19 CYP3A4 MTHFR SLCO1B1   "
+ },
+ {
+   "ID": 38,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3838,
+   "Drug": "Cytarabine",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 39,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3839,
+   "Drug": "Dacacarbazine",
+   "Gene": "CYP1A2       "
+ },
+ {
+   "ID": 52,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3852,
+   "Drug": "Docetaxel",
+   "Gene": "CYP3A4 SLCO1B1      "
+ },
+ {
+   "ID": 53,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3853,
+   "Drug": "Dolasetron",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 56,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3856,
+   "Drug": "Doxorubicin",
+   "Gene": "ABCB1 CYP2B6 CYP2C19 SLCO1B1    "
+ },
+ {
+   "ID": 60,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3860,
+   "Drug": "Epirubicin",
+   "Gene": "ABCB1 SLCO1B1      "
+ },
+ {
+   "ID": 64,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3864,
+   "Drug": "Etoposide",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 70,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3870,
+   "Drug": "Fludarabine",
+   "Gene": "SLCO1B1       "
+ },
+ {
+   "ID": 72,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3872,
+   "Drug": "Fluorouracil",
+   "Gene": "ABCB1 ABCG2 DPYD MTHFR SLCO1B1   "
+ },
+ {
+   "ID": 78,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3878,
+   "Drug": "Folfox",
+   "Gene": "DPYD       "
+ },
+ {
+   "ID": 79,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3879,
+   "Drug": "Folox",
+   "Gene": "ABCG2       "
+ },
+ {
+   "ID": 81,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3881,
+   "Drug": "Gefitinib",
+   "Gene": "ABCG2 CYP2D6      "
+ },
+ {
+   "ID": 82,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3882,
+   "Drug": "Granisetron",
+   "Gene": "ABCB1 CYP3A5      "
+ },
+ {
+   "ID": 85,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3885,
+   "Drug": "Icotinib",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 86,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3886,
+   "Drug": "Idarubicin",
+   "Gene": "ABCB1 SLCO1B1      "
+ },
+ {
+   "ID": 88,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3888,
+   "Drug": "Imatinib",
+   "Gene": "ABCB1 CYP2B6 CYP3A5     "
+ },
+ {
+   "ID": 92,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3892,
+   "Drug": "Irinotecan",
+   "Gene": "SLCO1B1 UGT1A1      "
+ },
+ {
+   "ID": 98,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3898,
+   "Drug": "Leucovorin",
+   "Gene": "ABCG2 MTHFR      "
+ },
+ {
+   "ID": 108,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3908,
+   "Drug": "Mercaptopurine",
+   "Gene": "MTHFR TPMT      "
+ },
+ {
+   "ID": 110,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3910,
+   "Drug": "Methotrexate",
+   "Gene": "ABCB1 MTHFR SLCO1B1     "
+ },
+ {
+   "ID": 118,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3918,
+   "Drug": "Mitotane",
+   "Gene": "CYP2B6       "
+ },
+ {
+   "ID": 133,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3933,
+   "Drug": "Ondansetron",
+   "Gene": "ABCB1 CYP2C9 CYP3A5     "
+ },
+ {
+   "ID": 137,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3937,
+   "Drug": "Oxaliplatin",
+   "Gene": "ABCB1 ABCG2 MTHFR     "
+ },
+ {
+   "ID": 140,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3940,
+   "Drug": "Paclitaxel",
+   "Gene": "ABCB1 CYP3A4 CYP3A5     "
+ },
+ {
+   "ID": 147,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3947,
+   "Drug": "Platinum Compounds (gen)",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 164,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3964,
+   "Drug": "Silibinin",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 167,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3967,
+   "Drug": "Sorafenib",
+   "Gene": "ABCB1 SLCO1B1      "
+ },
+ {
+   "ID": 173,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3973,
+   "Drug": "Sunitinib",
+   "Gene": "ABCB1 ABCG2 CYP3A5     "
+ },
+ {
+   "ID": 176,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3976,
+   "Drug": "Tamoxifen",
+   "Gene": "ABCB1 CYP2C19 CYP2D6 CYP3A4    "
+ },
+ {
+   "ID": 177,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3977,
+   "Drug": "Taxanes (gen)",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 178,
+   "category": "MALIGNANT DISEASE",
+   "Testcode": 3978,
+   "Drug": "Tegafur",
+   "Gene": "DPYD       "
+ },
+ {
+   "ID": 3,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3803,
+   "Drug": "Alfentanil",
+   "Gene": "OPRM1       "
+ },
+ {
+   "ID": 22,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3822,
+   "Drug": "Carisoprodol",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 34,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3834,
+   "Drug": "Codeine",
+   "Gene": "ABCB1 CYP2D6      "
+ },
+ {
+   "ID": 67,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3867,
+   "Drug": "Fentanyl",
+   "Gene": "ABCB1 OPRM1      "
+ },
+ {
+   "ID": 84,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3884,
+   "Drug": "Hydrocodone",
+   "Gene": "OPRM1       "
+ },
+ {
+   "ID": 93,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3893,
+   "Drug": "Ketamine",
+   "Gene": "CYP2B6       "
+ },
+ {
+   "ID": 109,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3909,
+   "Drug": "Methadone",
+   "Gene": "ABCB1 CYP2B6 CYP3A4     "
+ },
+ {
+   "ID": 115,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3915,
+   "Drug": "Midazolam",
+   "Gene": "CYP3A4 CYP3A5      "
+ },
+ {
+   "ID": 120,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3920,
+   "Drug": "Morphine",
+   "Gene": "ABCB1 COMT OPRM1     "
+ },
+ {
+   "ID": 134,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3934,
+   "Drug": "Opioids (gen)",
+   "Gene": "ABCB1 COMT DBH OPRD1 OPRM1   "
+ },
+ {
+   "ID": 139,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3939,
+   "Drug": "Oxycodone",
+   "Gene": "ABCB1 CYP2D6      "
+ },
+ {
+   "ID": 153,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3953,
+   "Drug": "Propofol",
+   "Gene": "CYP2B6       "
+ },
+ {
+   "ID": 160,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3960,
+   "Drug": "Rocuronium",
+   "Gene": "SLCO1B1       "
+ },
+ {
+   "ID": 172,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3972,
+   "Drug": "Sumatriptan",
+   "Gene": "COMT OPRM1      "
+ },
+ {
+   "ID": 182,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3982,
+   "Drug": "Tolperisone",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 184,
+   "category": "PAIN MANAGEMENT",
+   "Testcode": 3984,
+   "Drug": "Tramadol",
+   "Gene": "CYP2D6 OPRM1      "
+ },
+ {
+   "ID": 2,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3802,
+   "Drug": "Agomelatine",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 5,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3805,
+   "Drug": "Amitriptyline",
+   "Gene": "CYP2C19 CYP2D6      "
+ },
+ {
+   "ID": 8,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3808,
+   "Drug": "Antiepileptics (gen)",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 9,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3809,
+   "Drug": "Antipsychotics (gen)",
+   "Gene": "ANKK1 COMT CYP1A2 CYP2D6 GRIK4 HTR2A HTR2C MTHFR"
+ },
+ {
+   "ID": 10,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3810,
+   "Drug": "Aripiprazole",
+   "Gene": "ANKK1 CYP2D6      "
+ },
+ {
+   "ID": 13,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3813,
+   "Drug": "Atomoxetine",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 17,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3817,
+   "Drug": "Bupropion",
+   "Gene": "ANKK1 CYP2B6 CYP2C19 DRD1    "
+ },
+ {
+   "ID": 20,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3820,
+   "Drug": "Carbamazepine",
+   "Gene": "ABCB1 CYP1A2 CYP3A4 CYP3A5 UGT2B7   "
+ },
+ {
+   "ID": 26,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3826,
+   "Drug": "Chlorpromazine",
+   "Gene": "CYP1A2       "
+ },
+ {
+   "ID": 29,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3829,
+   "Drug": "Citalopram",
+   "Gene": "CYP2D6 HTR2A      "
+ },
+ {
+   "ID": 30,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3830,
+   "Drug": "Clobazam",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 31,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3831,
+   "Drug": "Clomipramine",
+   "Gene": "CYP2C19 CYP2D6      "
+ },
+ {
+   "ID": 33,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3833,
+   "Drug": "Clozapine",
+   "Gene": "ABCB1 ANKK1 COMT CYP1A2 DRD1 MTHFR  "
+ },
+ {
+   "ID": 43,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3843,
+   "Drug": "Desipramine",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 45,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3845,
+   "Drug": "Dexmedetomidine",
+   "Gene": "ADRA2A       "
+ },
+ {
+   "ID": 46,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3846,
+   "Drug": "Dextroamphetamine",
+   "Gene": "DRD1       "
+ },
+ {
+   "ID": 47,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3847,
+   "Drug": "Diazepam",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 51,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3851,
+   "Drug": "Disulfiram",
+   "Gene": "ANKK1 MTHFR      "
+ },
+ {
+   "ID": 54,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3854,
+   "Drug": "Donepezil",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 55,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3855,
+   "Drug": "Doxepin",
+   "Gene": "CYP2C19 CYP2C9      "
+ },
+ {
+   "ID": 59,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3859,
+   "Drug": "Entacaptone",
+   "Gene": "COMT       "
+ },
+ {
+   "ID": 62,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3862,
+   "Drug": "Escitalopram",
+   "Gene": "CYP1A2 CYP2C19 CYP2D6 HTR2A    "
+ },
+ {
+   "ID": 73,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3873,
+   "Drug": "Fluoxetine",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 74,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3874,
+   "Drug": "Fluphenazine",
+   "Gene": "CYP1A2       "
+ },
+ {
+   "ID": 77,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3877,
+   "Drug": "Fluvoxamine",
+   "Gene": "COMT CYP2D6 HTR2A     "
+ },
+ {
+   "ID": 80,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3880,
+   "Drug": "Galantamine",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 83,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3883,
+   "Drug": "Haloperidol",
+   "Gene": "COMT CYP2D6      "
+ },
+ {
+   "ID": 87,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3887,
+   "Drug": "Iloperidone",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 89,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3889,
+   "Drug": "Imipramine",
+   "Gene": "CYP2C19 CYP2D6      "
+ },
+ {
+   "ID": 95,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3895,
+   "Drug": "Lamotrigine",
+   "Gene": "ABCG2 UGT2B7      "
+ },
+ {
+   "ID": 99,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3899,
+   "Drug": "Levodopa",
+   "Gene": "DBH       "
+ },
+ {
+   "ID": 100,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3900,
+   "Drug": "Lithium",
+   "Gene": "DRD1       "
+ },
+ {
+   "ID": 102,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3902,
+   "Drug": "Lorazepam",
+   "Gene": "UGT2B15       "
+ },
+ {
+   "ID": 106,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3906,
+   "Drug": "Maprotiline",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 107,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3907,
+   "Drug": "Mephenytoin",
+   "Gene": "CYP2C19       "
+ },
+ {
+   "ID": 111,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3911,
+   "Drug": "Methylphenidate",
+   "Gene": "ADRA2A DRD1      "
+ },
+ {
+   "ID": 114,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3914,
+   "Drug": "Mianserin",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 116,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3916,
+   "Drug": "Milnacipran",
+   "Gene": "ADRA2A       "
+ },
+ {
+   "ID": 117,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3917,
+   "Drug": "Mirtazapine",
+   "Gene": "CYP2B6 CYP2D6      "
+ },
+ {
+   "ID": 121,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3921,
+   "Drug": "Naloxone",
+   "Gene": "OPRM1       "
+ },
+ {
+   "ID": 122,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3922,
+   "Drug": "Naltrexone",
+   "Gene": "DBH OPRD1 OPRM1     "
+ },
+ {
+   "ID": 124,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3924,
+   "Drug": "Nemonapride",
+   "Gene": "ANKK1       "
+ },
+ {
+   "ID": 126,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3926,
+   "Drug": "Nicotine",
+   "Gene": "COMT       "
+ },
+ {
+   "ID": 129,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3929,
+   "Drug": "Nortriptyline",
+   "Gene": "ABCB1 CYP2D6      "
+ },
+ {
+   "ID": 130,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3930,
+   "Drug": "Olanzapine",
+   "Gene": "ABCB1 ANKK1 CYP1A2 CYP2C9 CYP2D6 CYP3A5 HTR2A MTHFR"
+ },
+ {
+   "ID": 135,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3935,
+   "Drug": "Opipramol",
+   "Gene": "CYP2D6       "
+ },
+ {
+   "ID": 138,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3938,
+   "Drug": "Oxazepam",
+   "Gene": "UGT2B15       "
+ },
+ {
+   "ID": 142,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3942,
+   "Drug": "Paroxetine",
+   "Gene": "COMT CYP1A2 CYP2D6 HTR2A    "
+ },
+ {
+   "ID": 143,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3943,
+   "Drug": "Phenobarbital",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 144,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3944,
+   "Drug": "Phenprocoumon",
+   "Gene": "CYP2C9 VKORC1      "
+ },
+ {
+   "ID": 145,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3945,
+   "Drug": "Phenytoin",
+   "Gene": "ABCB1 CYP2C9      "
+ },
+ {
+   "ID": 154,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3954,
+   "Drug": "Quetiapine",
+   "Gene": "COMT CYP3A5      "
+ },
+ {
+   "ID": 158,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3958,
+   "Drug": "Risperidone",
+   "Gene": "ABCB1 ANKK1 CYP2D6 CYP3A4 HTR2A   "
+ },
+ {
+   "ID": 163,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3963,
+   "Drug": "Sertraline",
+   "Gene": "CYP2C19 CYP2D6      "
+ },
+ {
+   "ID": 168,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3968,
+   "Drug": "SSRIs (gen)",
+   "Gene": "ABCB1 ADRA2A DRD4 GABRA6 GABRP GRIK4 HTR2A "
+ },
+ {
+   "ID": 179,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3979,
+   "Drug": "Thioridazine",
+   "Gene": "CYP1A2 CYP2D6      "
+ },
+ {
+   "ID": 185,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3985,
+   "Drug": "Trifluoperazine",
+   "Gene": "CYP1A2       "
+ },
+ {
+   "ID": 186,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3986,
+   "Drug": "Trimipramine",
+   "Gene": "CYP2C19 CYP2C9      "
+ },
+ {
+   "ID": 188,
+   "category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "Testcode": 3988,
+   "Drug": "Valproic Acid",
+   "Gene": "ANKK1 CYP2C9      "
+ },
+ {
+   "ID": 42,
+   "category": "OTHER",
+   "Testcode": 3842,
+   "Drug": "Deferasirox",
+   "Gene": "CYP1A2 UGT1A1      "
+ },
+ {
+   "ID": 119,
+   "category": "OTHER",
+   "Testcode": 3919,
+   "Drug": "Modafinil",
+   "Gene": "ABCB1       "
+ },
+ {
+   "ID": 128,
+   "category": "OTHER",
+   "Testcode": 3928,
+   "Drug": "Nitrous Oxide",
+   "Gene": "MTHFR       "
+ },
+ {
+   "ID": 136,
+   "category": "OTHER",
+   "Testcode": 3936,
+   "Drug": "Oral Contraceptives (gen)",
+   "Gene": "F2 F5      "
+ },
+ {
+   "ID": 183,
+   "category": "OTHER",
+   "Testcode": 3983,
+   "Drug": "Tolterodine",
+   "Gene": "CYP2D6       "
+ }
+]

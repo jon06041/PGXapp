@@ -1,0 +1,345 @@
+[
+ {
+   "ID": 188,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3811, 3827, 3832, 3948, 3980",
+   "panelno": "3101 Antiplatelet Agents",
+   "panelname": " Aspirin, Cilostazol, Clopidogrel, Prasugrel, Ticagrelor (ABCB1, CYP1A2, CYP2B6, CYP2C9, CYP2C19, CYP2D6, CYP3A4, CYP3A5, ITGB3, SLOC1B1)"
+ },
+ {
+   "ID":189,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3814, 3825, 3876, 3905, 3946, 3949, 3962, 3965",
+   "panelno": "3102 Statins",
+   "panelname": " Atorvastatin, Cerivastatin, Fluvastatin, Lovastatin, Pitavastatin, Pravastatin, Rosuvastatin, Simvastatin (ABCB1, ABCG2, APOE, CYP2C9, CYP2D6, CYP3A4, CYP3A5, KIF6, MTHFR, SLCO1B1)"
+ },
+ {
+   "ID": 190,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3801, 3835, 3871, 3944, 3995",
+   "panelno": "3103 Anticlotting Agents ",
+   "panelname": " - Acenocoumarol, Coumarol, Fluindione, Phenprocoumon, Warfarin (CYP2C9, CYP2C19, CYP2D6, VKORC1)"
+ },
+ {
+   "ID": 191,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "",
+   "panelno": "3104 Thrombophilia ",
+   "panelname": " Susceptibility to Factor II, Factor V Leiden (F2, F5)"
+ },
+ {
+   "ID": 192,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3806, 3927",
+   "panelno": "3105 Calcium Channel Blockers",
+   "panelname": " Amlodipine, Nifedipine (CYP3A4, CYP3A5)"
+ },
+ {
+   "ID": 193,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3816, 3823, 3913, 3952, 3975, 3981",
+   "panelno": "3106 Beta Blockers ",
+   "panelname": " Bufuralol, Carvedilol, Metoprolol, Propranalol, Talinolol, Timolol (ABCB1, CYP2D6, UGT1A1)"
+ },
+ {
+   "ID": 194,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3850",
+   "panelno": "3107 Congestive Heart Failure ",
+   "panelname": " Digoxin (ABCB1)"
+ },
+ {
+   "ID": 195,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3869, 3951",
+   "panelno": "3108 Antiarrhythmics ",
+   "panelname": " Other - Flecainide, Propafenone (CYP2D6)  "
+ },
+ {
+   "ID": 196,
+   "Category": "CARDIOLOGY",
+   "testsinpanel": "3815, 3841, 3858, 3891, 3904, 3931, 3991",
+   "panelno": "3109 Antihypertensives ",
+   "panelname": "Other - Benazepril, Debrisoquine, Enalapril, Irbesartan, Losartan, Olmesartan, Verapamil (ABCB1, CYP2D6, CYP2C9, MTHFR, SLOC1B1)"
+ },
+ {
+   "ID": 197,
+   "Category": "PAIN MANAGEMENT",
+   "testsinpanel": "3803, 3834, 3867, 3884, 3893, 3909, 3920, 3934, 3939, 3972, 3984",
+   "panelno": "3201 Pain Management ",
+   "panelname": " General  - Alfentanil, Codeine, Fentanyl, Hydrocodone, Ketamine, Methadone, Morphine, Opioids (gen), Oxycodone, Sumatriptan, Tramadol (ABCB1, COMT, CYP2B6, CYP2D6, DBH, OPRD1, OPRM1)"
+ },
+ {
+   "ID": 198,
+   "Category": "PAIN MANAGEMENT",
+   "testsinpanel": "3822, 3915, 3953, 3960, 3982",
+   "panelno": "3202 Sedatives and Relaxants, including muscle relaxants ",
+   "panelname": " Carisoprodol, Midazolam, Propofol, Rocuronium, Tolperisone (CYP2B6, CYP2C19, CYP2D6, CYP3A4, CYP3A5, SLCO1B1)"
+ },
+ {
+   "ID": 199,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3992",
+   "panelno": "3301 Alkaloids",
+   "panelname": " � Vincristine (ABCB1)"
+ },
+ {
+   "ID": 200,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3836, 3839",
+   "panelno": "3302 Alkylating Agents ",
+   "panelname": " Cyclophosphamide, Dacacarbazine (CYP1A2, CYP2B6, CYP2C19, CYP3A4, MTHFR, SLCO1B1)"
+ },
+ {
+   "ID": 201,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3838, 3870, 3908, 3910, 3964",
+   "panelno": "3303 Antimetabolites ",
+   "panelname": " Cytarabine, Fludarabine, Mercaptopurine, Methotrexate, Silibinin (ABCB1, MTHFR, SLCO1B1, TPMT)"
+ },
+ {
+   "ID": 202,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3807, 3856, 3860, 3886",
+   "panelno": "3304 Anthracycline",
+   "panelname": "  Anthracyclines (gen), Doxorubicin, Epirubicin, Idarubicin (ABCB1, CYP2B6, CYP2C19, SLCO1B1)"
+ },
+ {
+   "ID": 203,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3881, 3885, 3888, 3967, 3973",
+   "panelno": "3305 Kinase Inhibitors ",
+   "panelname": " Gefitinib, Icotinib, Imatinib, Sorafenib, Sunitinib (ABCB1, ABCG2, CYP2B6, CYP2D6, CYP3A5, SLCO1B1)"
+ },
+ {
+   "ID": 204,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3821, 3828, 3937, 3947",
+   "panelno": "3306 Platinum Derivatives ",
+   "panelname": " Carboplatin, Cisplatin, Oxaliplatin, Platinum Compounds (gen) (ABCB1, ABCG2, CYP2C19, CYP3A5, MTHFR, TPMT)"
+ },
+ {
+   "ID": 205,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3918, 3976",
+   "panelno": "3307 Steroid Hormone Inhibitors ",
+   "panelname": " Mitotane, Tamoxifen (ABCB1, CYP2B6, CYP2C19, CYP2D6, CYP3A4)"
+ },
+ {
+   "ID": 206,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3852, 3940, 3977",
+   "panelno": "3308 Taxanes ",
+   "panelname": " Docetaxel, Paclitaxel, Taxanes (gen) (ABCB1, CYP3A4, CYP3A5, SLCO1B1)"
+ },
+ {
+   "ID": 207,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3864, 3892",
+   "panelno": " 3309 Topoisomerase Inhibitors ",
+   "panelname": " Etoposide, Irinotecan (ABCB1, SLOC1B1, UGT1A1)"
+ },
+ {
+   "ID": 208,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3819, 3872, 3878, 3879, 3898, 3978, 3996",
+   "panelno": "3310 Uracil Derivatives -",
+   "panelname": "Capecitabine, Fluorouracil, Folfox, Folox, Leucovorin, Tegafur, Xelox (ABCB1, ABCG2, DYPD, MTHFR, SLCO1B1)"
+ },
+ {
+   "ID": 209,
+   "Category": "MALIGNANT DISEASE",
+   "testsinpanel": "3853, 3882, 3933",
+   "panelno": "3311 Antiemetics ",
+   "panelname": "Dolasetron, Granisetron, Ondansetron (ABCB1, CYP2D6, CYP2C9, CYP3A5)"
+ },
+ {
+   "ID": 210,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3817, 3851, 3899, 3909, 3921, 3922, 3926",
+   "panelno": "3401 Addiction to Alcohol, Cocaine, Heroin, Opioids, Tobacco ",
+   "panelname": " Bupropion, Disulfiram, Levodopa, Methadone, Naloxone, Naltrexone, Nicotine (ABCB1, ANKK1, COMT, CYP2B6, CYP2C19, CYP3A4, DBH, DRD1, MTHFR, OPRD1, OPRM1)"
+ },
+ {
+   "ID": 211,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3813, 3846, 3911",
+   "panelno": "3402 ADHD ",
+   "panelname": "Atomoxetine, Dextroamphetamine, Methylphenidate (ADRA2A, CYP2D6, DRD1)"
+ },
+ {
+   "ID": 212,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3854, 3880, 3930, 3958",
+   "panelno": "3403 Alzheimer's Disease ",
+   "panelname": " Donepezil, Galantamine, Olanzapine, Risperidone (ABCB1, ANKK1, CYP1A2, CYP2C9, CYP2D6, CYP3A4, CYP3A5, HTR2A, MTHFR)"
+ },
+ {
+   "ID": 213,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3845, 3862, 3902, 3915, 3938, 3990",
+   "panelno": "3404 Anxiety, Insomnia, Severe Agitation ",
+   "panelname": " Dexmedetomidine, Escitalopram, Lorazepam, Midazolam, Oxazepam, Venlafaxine (ADRA2A, COMT, CYP1A2, CYP2C19, CYP2D6, CYP3A4, CYP3A5, GABRA6, GABRP, HTR2A, UGT2B15)"
+ },
+ {
+   "ID": 214,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3954, 3958",
+   "panelno": "3405 Autism Spectrum Disorders ",
+   "panelname": " Quetiapine, Risperidone (ABCB1, ANKK1, COMT, CYP2D6, CYP3A4, CYP3A5, HTR2A)"
+ },
+ {
+   "ID": 215,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3900, 3930, 3958",
+   "panelno": "3406 Bipolar Disorder ",
+   "panelname": " Lithium, Olanzapine, Quetiapine  (ABCB1, ANKK1, CYP1A2, CYP2C9, CYP2D6, CYP3A5, COMT, DRD1, HTR2A, MTHFR)"
+ },
+ {
+   "ID": 216,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3802,  3805, 3809, 3829, 3831, 3843, 3847, 3855, 3862, 3873, 3877, 3889, 3906, 3914, 3916, 3917, 3929, 3930, 3935, 3942, 3954, 3963, 3968, 3986, 3990, 3994",
+   "panelno": "3407 Depressive Disorder and Major Depressive Disorder ",
+   "panelname": " Agomelatine, Amitriptyline, Antipsychotics (gen), Citalopram, Clomipramine, Desipramine, Diazepam, Doxepin, Escitalopram, Fluoxetine, Fluvoxamine, Imipramine, Maprotiline, Mianserin, Milnacipran, Mirtazapine, Nortriptyline, Olanzapine, Opipramol, Paroxetine, Quetiapine, Sertraline, SSRIs (gen), Trimipramine, Venlafaxine, Vortioxetine (ABCB1, ADRA2A, ANKK1, COMT, CYP1A2, CYP2B6, CYP2C19, CYP2C9, CYP2D6, CYP3A5, DRD4, GABRA6, GABRP, GRIK4, HTR2A, HTR2C, MTHFR)"
+ },
+ {
+   "ID": 217,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3808, 3820, 3830, 3895, 3907, 3943, 3945, 3988",
+   "panelno": "3408 Epilepsy ",
+   "panelname": " Antiepileptics (gen), Carbamazepine, Clobazam, Lamotrigine, Mephenytoin, Phenobarbital, Phenytoin, Valproic acid (ABCB1, ABCG2, ANKK1, CYP1A2, CYP2C19, CYP2C9, CYP3A4, CYP3A5, UGT2B7)"
+ },
+ {
+   "ID": 218,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3859",
+   "panelno": "3409 Parkinson's Disease ",
+   "panelname": " Entacaptone (COMT)"
+ },
+ {
+   "ID": 219,
+   "Category": "PSYCHIATRIC DISORDERS (INCLUDING ADDICTION)",
+   "testsinpanel": "3809, 3810 3826, 3833, 3874, 3883, 3887, 3924, 3930, 3954, 3958, 3979, 3985, 3999",
+   "panelno": "3410 Schizophrenia ",
+   "panelname": " Antipsychotics (gen), Aripiprazole, Chlorpromazine, Clozapine, Fluphenazine,  Haloperidol, Iloperidone, Nemonapride, Olanzapine, Quetiapine, Risperidone, Thioridazine, Trifluoperazine, Zuclopenthixol (ABCB1, ANKK1, COMT, CYP1A2, CYP2C9, CYP2D6, CYP3A4, CYP3A5, DRD1, GRIK4, HTR2A, HTR2C, MTHFR)"
+ },
+ {
+   "ID": 220,
+   "Category": "INFECTIOUS DISEASE",
+   "testsinpanel": "3812, 3857, 3865, 3890, 3894, 3901, 3923, 3925, 3959, 3998",
+   "panelno": "3501 HIV / AIDS ",
+   "panelname": " Atazanavir, Efavirenz, Etravirine, Indinavir, Lamivudine, Lopinavir, Nelfinavir, Nevirapine, Ritonavir, Zidovudine (ABCB1, APOE, CYP2B6, CYP2C19, CYP2D6, CYP3A4, CYP3A5, UGT1A1)"
+ },
+ {
+   "ID": 221,
+   "Category": "INFECTIOUS DISEASE",
+   "testsinpanel": "3840, 3849, 3861, 3957, 3970, 3993",
+   "panelno": "3502 Antifungals and Antibiotics ",
+   "panelname": " Daptomycin, Dicloxacillin, Erythromycin, Rifampicin, Sulfonamides (gen), Voriconazole (ABCB1, CYP2C9, CYP2C19, CYP3A4, SLCO1B1)"
+ },
+ {
+   "ID": 222,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3818, 3836, 3837, 3866, 3912, 3950, 3966, 3974",
+   "panelno": "3601 Transplantation ",
+   "panelname": " Busulfan, Cyclophosphamide, Cyclosporine, Everolimus, Methylprednisone, Prednisone/Prednisolone, Sirolimus, Tacrolimus (ABCB1, CYP2B6, CYP2C19, CYP2C9, CYP3A4, CYP3A5, MTHFR, SLCO1B1)"
+ },
+ {
+   "ID": 223,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3897, 3910, 3969",
+   "panelno": "3602 Rheumatoid Arthritis ",
+   "panelname": " Leflunomide, Methotrexate, Sulfasalazine (ABCB1, ABCG2, CYP1A2, MTHFR, SLCO1B1)"
+ },
+ {
+   "ID": 224,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3956, 3961, 3971, 3987",
+   "panelno": "3603 Type-II Diabetes ",
+   "panelname": " Repaglinide, Rosiglitazone, Sulfoureas (gen), Urea Derivatives (gen) (CYP2C8, CYP2C9, SLCO1B1)"
+ },
+ {
+   "ID": 225,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3863, 3896, 3932, 3941, 3955, 3974",
+   "panelno": "3604 Gastritis and Colitis ",
+   "panelname": " Esomeprazole, Lansoprazole, Omeprazole, Pantoprazole, Rabeprazole, Tarcolimus (ABCB1, CYP2C19, CYP3A4, CYP3A5)"
+ },
+ {
+   "ID": 226,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3824, 3844, 3848, 3875, 3903, 3905",
+   "panelno": "3605 Inflammation ",
+   "panelname": " Celecoxib, Dexamethasone, Diclofenac, Flurbiprofen, Lornoxicam, Prednisone/Prednisolone (ABCB1, CYP2C9)"
+ },
+ {
+   "ID": 227,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3836",
+   "panelno": "3606 Systemic Lupus Erythematosus ",
+   "panelname": " Cyclophosphamide (CYP2B6, CYP2C19, CYP3A4, MTHFR, SLCO1B1)"
+ },
+ {
+   "ID": 228,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3804",
+   "panelno": "3607 Gout ",
+   "panelname": " Allopurinol (ABCG2)"
+ },
+ {
+   "ID": 229,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3868",
+   "panelno": "3608 Antihistamines ",
+   "panelname": " Fexofenadine (ABCB1)"
+ },
+ {
+   "ID": 230,
+   "Category": "IMMUNOLOGY / IMMUNE MODULATION",
+   "testsinpanel": "3997",
+   "panelno": "3609 Antiasthmatics ",
+   "panelname": " Zafirlukast (CYP2C9)"
+ },
+ {
+   "ID": 231,
+   "Category": "OTHER",
+   "testsinpanel": "3928",
+   "panelno": "3701 Anaesthesiology ",
+   "panelname": " Nitrous Oxide (MTHFR)"
+ },
+ {
+   "ID": 232,
+   "Category": "OTHER",
+   "testsinpanel": "3842",
+   "panelno": "3702 Beta Thalassemia ",
+   "panelname": " Deferasirox (CYP1A2, UGT1A1)"
+ },
+ {
+   "ID": 233,
+   "Category": "OTHER",
+   "testsinpanel": "3919",
+   "panelno": "3703 Narcolepsy ",
+   "panelname": " Modafinil (ABCB1)"
+ },
+ {
+   "ID": 234,
+   "Category": "OTHER",
+   "testsinpanel": "3936",
+   "panelno": "3704 Contraception ",
+   "panelname": " Oral Contraceptives (gen) (F 2, F5)"
+ },
+ {
+   "ID": 235,
+   "Category": "OTHER",
+   "testsinpanel": "3989",
+   "panelno": "3705 Erectile Dysfunction ",
+   "panelname": " Vardenafil (CYP3A5)"
+ },
+ {
+   "ID": 236,
+   "Category": "OTHER",
+   "testsinpanel": "3983",
+   "panelno": "3706 Bladder Control ",
+   "panelname": " Tolterodine (CYP2D6)"
+ }
+]

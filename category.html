@@ -1,0 +1,250 @@
+	
+	<!DOCTYPE html>
+	<html>
+	<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	  <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+
+  
+  
+ 
+       
+
+        
+        
+
+	<title>Pharmacogenomics</title>
+	</head>
+	<body>
+		
+		
+		<div data-role="page" id="pageone">
+		  <div data-role="header">
+		    <h1>Welcome To My Homepage</h1>
+		  </div>
+  	 <nav aria-label="...">
+  	   <ul class="pager">
+  	     <li class="previous" data-transition="slide"><a href="app2.html"><span aria-hidden="true">&larr;</span> By Drug</a></li>
+  	     <li class="next" data-transition="slide"><a href="gene.html">By Gene <span aria-hidden="true">&rarr;</span></a></li>
+  	   </ul>
+  	 </nav>
+    <div data-role="main" class="ui-content">
+      <p>Click on the link to see the slide effect.</p>
+      <a href="#pagetwo" data-transition="slide" ><button>Slide to Page Two</button></a>
+    </div>
+    <div data-role="footer">
+      <h1>Footer Text</h1>
+    </div>
+	<h4>This is the page i slide to</h4>
+	<div class="table-responsive">
+	  <table class="table">
+		<legend>Drugs </legend>
+		<div ui-content-for="title">
+		  <span>Tabs</span>
+		</div>
+
+		<div class="scrollable">
+		  <div class="scrollable-content">
+		    <div class="section">
+		      <ui-shared-state id="activeTab" default="1"></ui-shared-state>
+
+		      <ul class="nav nav-tabs">
+		        <li ui-class="{'active': activeTab == 1}">
+		          <a ui-set="{'activeTab': 1}">Tab 1</a>
+		        </li>
+		        <li ui-class="{'active': activeTab == 2}">
+		          <a ui-set="{'activeTab': 2}">Tab 2</a>
+		        </li>
+		        <li ui-class="{'active': activeTab == 3}">
+		          <a ui-set="{'activeTab': 3}">Tab 3</a>
+		        </li>
+		      </ul>
+
+		      <div ui-if="activeTab == 1">
+		        <h3 class="page-header">Tab 1</h3>
+		        <p>{{lorem}}</p>
+		      </div>
+
+		      <div ui-if="activeTab == 2">
+		        <h3 class="page-header">Tab 2</h3>
+		        <p>{{lorem}}</p>
+		      </div>
+
+		      <div ui-if="activeTab == 3">
+		        <h3 class="page-header">Tab 3</h3>
+		        <p>{{lorem}}</p>
+		      </div>
+
+		      <div class="btn-group justified nav-tabs">
+		        <a ui-set="{'activeTab': 1}" 
+		            ui-class="{'active': activeTab == 1}" class="btn btn-default">Tab 1</a>
+
+		        <a ui-set="{'activeTab': 2}" 
+		            ui-class="{'active': activeTab == 2}" class="btn btn-default">Tab 2</a>
+
+		        <a ui-set="{'activeTab': 3}" 
+		            ui-class="{'active': activeTab == 3}" class="btn btn-default">Tab 3</a>
+		      </div>  
+		    </div>
+
+		  </div>
+		</div>
+	    		<label for="select_all" class="btn btn-default">Select All <input type="checkbox" checked="checked" id="select_all"  class="badgebox"><span class="badge">&check;</span></label>
+						
+					
+	  			<div class="row text-center">								
+	  	   <td class="gene" value="1">   <label for="primary" class="btn btn-default">Cardiology <input type="checkbox" checked="checked" geneData="1"id="primary" class="badgebox"> <span class="badge">&check;</span></label>
+	  						<p id="1">gene set 1</p></td>
+	            <td class="gene" value="1"><label for="info" class="btn btn-default">Pain Management <input type="checkbox" checked="checked" geneData="2"id="info" class="badgebox"><span class="badge">&check;</span></label>
+	  			  <p id="2">gene set 2</p></td>
+	            <td class="gene" value="1"><label for="success" class="btn btn-default">Malignant Disease <input type="checkbox" checked="checked" geneData="2"id="success" class="badgebox"><span class="badge">&check;</span></label>
+	  			  <p id="3">gene set 3</p></td>
+	           <td class="gene" value="1"> <label for="warning" class="btn btn-default">Psychiatric disorders <input type="checkbox" checked="checked" geneData="4"id="warning" class="badgebox"><span class="badge">&check;</span></label>
+	  			 <p id="4">gene set 4</p></td>
+	           <td class="gene" value="1"> <label for="danger" class="btn btn-default">Infectious disease <input type="checkbox" checked="checked" geneData="5"id="danger" class="badgebox"><span class="badge">&check;</span></label>
+	  			 <p id="5">gene set 5</p></td>			 
+	  	         <td class="gene" value="1"> <label for="new" class="btn btn-default">Immunology/ Immune Modulation<input type="checkbox" checked="checked" geneData="6"id="new" class="badgebox"><span class="badge">&check;</span></label>
+	  				 <p id="6">gene set 6</p></td>
+					 </table>
+					 <a href="#" data-transition="slide.out.reverse" class="btn btn-success goback col-xs-1 col-sm-1 col-md-1 col-lg-1"><span class="glyphicon glyphicon-circle-arrow-left"></span> Back</a>
+					 
+	    	</div>
+		</div>
+	    </div>
+	</div>
+</div>
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Click on the link to go back. <b>Note</b>: fade is default.</p>
+    <a href="#pageone">Go to Page One</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> 
+  <div class="panel-group"><!--panel1-->
+	  
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse1" >Acenocoumarol</a>
+        </h4>
+        
+      </div>
+  </div>
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">CYP2C9, VKORC1</div>
+		
+		</div>
+	</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	//if the select all checkbox is checked all are checke otherwise none
+    $('#select_all').on('click',function(){
+        if(this.checked){
+			//$('.gene').show();
+            $('.badgebox').each(function(){
+                this.checked = true;
+				$('#'+$(this).attr('geneData')).show();
+				//$('.badgebox'+'.badge').css({'display': 'inline-block', 'background-color': '#fff', 'position': 'relative'}); 
+            });
+        }else{
+		   
+			//$('.gene').hide();
+             $('.badgebox').each(function(){
+                this.checked = false;
+				$('#'+$(this).attr('geneData')).hide();
+				//$('.badgebox').css({'display': 'inline-block', 'background-color': '#fff', 'position': 'relative'}); 
+            
+            });
+			
+        	
+			
+        }
+	});
+		
+		
+		
+
+		
+    
+  //This ensures that if all are not checked then select all is not checked and also hides or shows the selected or unselected P element
+		    $('.badgebox').on('click',function(){
+		
+		   			var boxId = $(this).attr('geneData');
+		   			//$('#select_all').prop('.badgebox:checked', false);
+		   			if ($(this).prop('checked')) {
+		   				$('#' + boxId).show();
+		   			} else {
+		   				$('#' + boxId).hide();
+		   			}
+
+		   			if ($('.badgebox'+'.badge').length == $('.badgebox:checked').length) {
+		   				$('#select_all').prop('.badgebox:checked'+'.badge', true);
+		   			}else{
+		   				
+						$('#select_all').prop('.badgebox:checked'+'.badge', false);
+		   			}
+        
+    });
+	
+	
+});
+</script>
+  <style>
+  /* Hiding the checkbox, but allowing it to be focused */
+  .badgebox
+  {
+      opacity: 0;
+  }
+
+  .badgebox + .badge
+  {
+      /* Move the check mark away when unchecked */
+      text-indent: -999999px;
+      /* Makes the badge's width stay the same checked and unchecked */
+  	width: 27px;
+  }
+
+  .badgebox:focus + .badge
+  {
+      /* Set something to make the badge looks focused */
+      /* This really depends on the application, in my case it was: */
+    
+      /* Adding a light border */
+      box-shadow: inset 0px 0px 5px;
+      /* Taking the difference out of the padding */
+  }
+
+  .badgebox:checked + .badge
+  {
+      /* Move the check mark back when checked */
+  	text-indent: 0;
+  }
+  </style>
+
+  
+        
+	
+	</body>
+	</html>
+	
+
+
